@@ -11,18 +11,16 @@ label {
 
 input[type=text] {
     border-radius: 8px;
-    height: 50px;
-    width: 300px;
+    padding: 8px;
     margin-bottom: 20px;
 }
 
-/********* Button Elements *********/
-.buttons button {
+input[type=submit] {
     border-radius: 10px;
     padding: 8px;
     margin-right: 25px;
 }
 
-.buttons button:hover {
+input[type=submit]:hover {
     cursor: pointer;
 }

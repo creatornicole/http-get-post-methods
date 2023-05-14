@@ -8,19 +8,11 @@
 </head>
 <body>
     <h1>Web Form Processor</h1>
-    <form action="<?php echo $SERVER["PHP_SELF"]?>" method="get">
-        <label for="fName">First Name:</label>
-        <input type="text" id="fName" autocomplete="off">
+    <form action="insert.php" method="POST">
+        <label for="temp">Temperature:</label>
+        <input type="text" name="temp" id="temp">
 
-        <label for="lName">Last Name:</label>
-        <input type="text" id="lName" autocomplete="off">
-
-        <div class="buttons">
-            <button type="submit">Submit</button>
-            <button type="submit">Submit using POST</button>
-            <button type="reset">Reset</button>
-
-        </div>
+        <input type="submit" value="Submit">
     </form>
     
 </body>
